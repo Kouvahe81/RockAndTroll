@@ -24,9 +24,11 @@
     "jasmine": "^4.1.0",
     "mongoose": "^6.2.7",
     "multer": "^1.4.4",
+    "npm": "^8.11.0",
     "react": "^18.1.0",
     "react-scripts": "^5.0.1",
     "rest-client": "^0.1.5",
+    "stars": "^1.0.0",
     "webpack": "^5.72.1",
     "webpack-cli": "^4.9.2"
   },
