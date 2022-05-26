@@ -4,9 +4,7 @@
   "description": "Gestion vente ticket ",
   "main": "server.js",
   "scripts": {
-    "heroku-postbuild": "npm install",
-    "start": "node server.js",
-    "watch": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
