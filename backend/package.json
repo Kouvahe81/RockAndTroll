@@ -6,9 +6,7 @@
   "scripts": {
     "heroku-postbuild": "npm install",
     "start": "node server.js",
-    "watch": "nodemon server.js",
-    "build": "webpack --config webpack.config.js",
-    "eject": "react-scripts eject"
+    "watch": "nodemon server.js"
   },
   "repository": {
     "type": "git",
