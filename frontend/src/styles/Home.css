@@ -1,0 +1,30 @@
+.main-page-image{
+    height: 600px;
+    width: 1500px;
+}
+.home-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#WelcomeTextspace {
+    background-color: White;
+    padding: 0% 10% 0% 10% ;
+    margin-top: -850px;
+    margin-left: -80px;
+    height-min: 55%;
+    width: 90%;
+    position: absolute;
+    top:160%;
+    left:10%;
+    border-radius: 10px;
+}
+
+#WelcomeTextspace span{
+    height: 200px;
+    font-size: 150%;
+    color:rgb(100, 36, 4) ;
+    margin-top: 10%; /* (à fix, ne marche pas) but étant de decoler le text du haut du cadre*/
+}
+
+

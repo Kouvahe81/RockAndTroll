@@ -1,0 +1,16 @@
+Pour le backend
+"bcrypt",
+"cors",
+"dotenv",
+"express",
+"mongoose",
+"nodemon",
+"rest-client"
+
+
+Pour le frontend
+"react-router-dom",
+"axios",
+"bootstrap"
+"reactstrap"
+"uuid"

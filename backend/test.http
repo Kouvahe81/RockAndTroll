@@ -1,0 +1,7 @@
+
+//GET http://localhost:4000/showAllClient
+//GET http://localhost:4000/showOneClient/62707b54c4c41c9166722104
+//GET http://localhost:4000/searchEmail/ronaldo@//yahoo.fr
+//DELETE http://localhost:4000/delete/62529416d33f7e6bc935171f
+content-Type: application/json
+
