@@ -4,12 +4,11 @@
   "description": "Gestion vente ticket ",
   "main": "server.js",
   "scripts": {
-     "heroku-postbuild": "npm install",
+    "heroku-postbuild": "npm install",
     "start": "node server.js",
     "watch": "nodemon server.js",
     "build": "webpack --config webpack.config.js",
     "eject": "react-scripts eject"
-
   },
   "repository": {
     "type": "git",
@@ -28,7 +27,6 @@
     "jasmine": "^4.1.0",
     "mongoose": "^6.2.7",
     "multer": "^1.4.4",
-    "nodemon": "^2.0.15",
     "react": "^18.1.0",
     "react-scripts": "^5.0.1",
     "rest-client": "^0.1.5",
@@ -36,6 +34,7 @@
     "webpack-cli": "^4.9.2"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "babel-cli": "^6.26.0",
+    "nodemon": "^2.0.16"
   }
 }

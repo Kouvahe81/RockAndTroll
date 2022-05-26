@@ -10,7 +10,7 @@ const routeBand = require('./routes/Band')
 const cors = require('cors')
 const bodyParser = require("express")
 const path = require('path')
-const PORT = process.env.PORT || 4000
+let PORT = process.env.PORT || 4000
 
 dotenv.config()
 // AddUser de la base de donnée via le fichier .env
@@ -32,4 +32,4 @@ app.use('/images', express.static(path.join(__dirname, 'images')))
 
 
 
-app.listen(PORT, ()=>console.log("Server is up and running")) // Indique le port sur lequel on a la réponse
+app.listen(PORT, ()=>console.log(`Server is up and running ${PORT} `)) // Indique le port sur lequel on a la réponse
